@@ -4,6 +4,10 @@ import margPizza from "./pics/margPizza.jpg";
 import sorpotel from "./pics/sorpotel.jpg";
 import chickenRoll from "./pics/chickenRoll.webp";
 import cake from "./pics/cake.webp";
+import prawnVindaloo from "./pics/prawnVindaloo.jpg";
+import rossOm from "./pics/rossOmlette.webp";
+import chorisPao from "./pics/chorisPao.jpg";
+
 export const food_list = [
   {
     _id: "1",
@@ -32,42 +36,33 @@ export const food_list = [
   },
   {
     _id: "4",
-    name: "Sushi Platter",
-    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
-    price: 25,
+    name: "Prawn Vindaloo",
+    image: prawnVindaloo,
+    price: 120,
     description:
-      "An assortment of fresh sushi including nigiri and maki rolls.",
-    category: "Appetizer",
+      "Shrimp Vindaloo (Prawn Vindaloo) is a Goan style curry made using fresh shrimp simmered in a sweet, spicy and tangy curry.",
+    category: "Mains",
   },
   {
     _id: "5",
-    name: "Tacos",
-    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
-    price: 10,
+    name: "Ross Omelette",
+    image: rossOm,
+    price: 80,
     description:
-      "Mexican tacos with a choice of fillings like chicken, beef, or veggies.",
+      "Goan omelet, with its rich and comforting, fiery gravy, for breakfast, lunch, or dinner",
     category: "Mains",
   },
   {
     _id: "6",
-    name: "Pasta Carbonara",
-    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
-    price: 16,
+    name: "Choris Pao",
+    image: chorisPao,
+    price: 100,
     description:
-      "Traditional Italian pasta with eggs, cheese, pancetta, and pepper.",
+      "Choris-Pão has the sausages chopped (sometimes with onions and a dash of curry) and placed inside a Poi or the local bun",
     category: "Mains",
   },
   {
     _id: "7",
-    name: "Caesar Salad",
-    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
-    price: 14,
-    description:
-      "Crisp romaine lettuce, croutons, and parmesan cheese tossed in Caesar dressing.",
-    category: "Salad",
-  },
-  {
-    _id: "8",
     name: "Paella",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 22,
@@ -76,7 +71,7 @@ export const food_list = [
     category: "Mains",
   },
   {
-    _id: "9",
+    _id: "8",
     name: "Cheeseburger",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 12,
@@ -85,7 +80,7 @@ export const food_list = [
     category: "Mains",
   },
   {
-    _id: "10",
+    _id: "9",
     name: "Ramen",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 14,
@@ -94,7 +89,7 @@ export const food_list = [
     category: "Mains",
   },
   {
-    _id: "11",
+    _id: "10",
     name: "Falafel Wrap",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 9,
@@ -103,7 +98,7 @@ export const food_list = [
     category: "Rolls",
   },
   {
-    _id: "12",
+    _id: "11",
     name: "Chocolate Cake",
     image: cake,
     price: 150,
@@ -111,7 +106,7 @@ export const food_list = [
     category: "Cake",
   },
   {
-    _id: "13",
+    _id: "12",
     name: "Chicken Caesar Wrap",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 11,
@@ -120,7 +115,7 @@ export const food_list = [
     category: "Mains",
   },
   {
-    _id: "14",
+    _id: "13",
     name: "Veggie Burger",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 10,
@@ -129,7 +124,7 @@ export const food_list = [
     category: "Mains",
   },
   {
-    _id: "15",
+    _id: "14",
     name: "Beef Tacos",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 13,
@@ -137,7 +132,7 @@ export const food_list = [
     category: "Mains",
   },
   {
-    _id: "16",
+    _id: "15",
     name: "Caprese Salad",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 12,
@@ -146,7 +141,7 @@ export const food_list = [
     category: "Salad",
   },
   {
-    _id: "17",
+    _id: "16",
     name: "Shrimp Scampi",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 18,
@@ -155,7 +150,7 @@ export const food_list = [
     category: "Mains",
   },
   {
-    _id: "18",
+    _id: "17",
     name: "Greek Salad",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 13,
@@ -164,7 +159,7 @@ export const food_list = [
     category: "Salad",
   },
   {
-    _id: "19",
+    _id: "18",
     name: "Chocolate Cake",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 8,
@@ -173,7 +168,7 @@ export const food_list = [
     category: "Dessert",
   },
   {
-    _id: "20",
+    _id: "19",
     name: "Apple Pie",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 7,
@@ -182,7 +177,7 @@ export const food_list = [
     category: "Dessert",
   },
   {
-    _id: "21",
+    _id: "20",
     name: "Mango Smoothie",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 6,
@@ -191,7 +186,7 @@ export const food_list = [
     category: "Beverage",
   },
   {
-    _id: "22",
+    _id: "21",
     name: "Iced Coffee",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
     price: 5,
@@ -199,7 +194,7 @@ export const food_list = [
     category: "Beverage",
   },
   {
-    _id: "23",
+    _id: "22",
     name: "Chicken Roll",
     image: chickenRoll,
     price: 100,
@@ -208,7 +203,7 @@ export const food_list = [
     category: "Rolls",
   },
   {
-    _id: "24",
+    _id: "23",
     name: "Sorpotel",
     image: sorpotel,
     price: 350,

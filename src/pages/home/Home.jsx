@@ -3,6 +3,7 @@ import SimpleTastesBetter from "../../components/simpleTastesBetter/SimpleTastes
 import GoodStuff from "../../components/goodStuff/goodStuff";
 import FoodDisplay from "../../components/foodDisplay/FoodDisplay";
 import ExploreMenu from "../../components/exploreMenu/ExploreMenu";
+import BrowseProducts from "../../components/browseProducts/BrowseProducts";
 import { useState } from "react";
 
 const Home = () => {
@@ -12,8 +13,9 @@ const Home = () => {
       <Hero />
       <SimpleTastesBetter />
       <GoodStuff />
+      <BrowseProducts />
       <ExploreMenu category={category} setCategory={setCategory} />
-      <FoodDisplay category={category} />
+      <FoodDisplay category={category} isHome={true} />
     </>
   );
 };

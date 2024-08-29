@@ -3,11 +3,16 @@ import { IoMdStar, IoMdStarHalf } from "react-icons/io";
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
 import { MdCurrencyRupee } from "react-icons/md";
 import { StoreContext } from "../../context/StoreContext";
+import { motion } from "framer-motion";
 
 const FoodItem = ({ id, name, price, image, description }) => {
   const { cartItems, addToCart, removeFromCart } = useContext(StoreContext);
   return (
-    <div className="food-item-card shadow-lg h-100 rounded-lg hover:-translate-y-2 transition hover:shadow-xl">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { delay: 0.4 } }}
+      className="food-item-card shadow-lg h-100 rounded-lg hover:-translate-y-2 transition hover:shadow-xl "
+    >
       <div className="img-container relative">
         <img
           src={image}
@@ -33,7 +38,7 @@ const FoodItem = ({ id, name, price, image, description }) => {
           </div>
         )}
       </div>
-      <div className="food-item-info p-3">
+      <div className="food-item-info p-3 bg-white">
         <div className="food-item-top-container flex text-indigo-600 items-center justify-between mb-2">
           <p className="food-name text-xl font-serif">{name}</p>
           <div className="stars-container flex text-base">
@@ -51,7 +56,7 @@ const FoodItem = ({ id, name, price, image, description }) => {
           <MdCurrencyRupee className="text-base" /> {price}
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

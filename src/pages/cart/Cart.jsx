@@ -78,7 +78,7 @@ const Cart = () => {
             </p>
           </div>
         </div>
-        <button className="cart-total-proceed-btn bg-indigo-600 rounded px-8 py-3 mt-2 text-white w-fit">
+        <button className="cart-total-proceed-btn rounded-full bg-indigo-600 rounded px-8 py-3 mt-2 text-white w-fit">
           Proceed To Checkout
         </button>
       </div>

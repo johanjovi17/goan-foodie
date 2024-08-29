@@ -15,9 +15,11 @@ const Navbar = () => {
 
   return (
     <nav className="p-4 w-full flex bg-white border-b justify-between items-center fixed z-10 ">
-      <span className="text-indigo-600 pl-5 text-xl font-bold font-playwrite">
-        GoanFoodie
-      </span>
+      <Link to="/">
+        <span className="text-indigo-600 pl-5 text-xl font-bold font-playwrite">
+          GoanFoodie
+        </span>
+      </Link>
       {/* Navbar for large devices */}
       <div className="navContainer hidden md:flex justify-evenly items-center gap-12 mx-10">
         <Link
